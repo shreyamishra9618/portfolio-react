@@ -1,7 +1,7 @@
 import React from 'react'
 import data from '../data.js'
-import InprogressProjects from './InprogressProjects.js'
 import Project from './Project.js'
+import '../styles/Projects.css'
 
 const Projects = () => {
   return (
@@ -11,7 +11,7 @@ const Projects = () => {
         {/* <h2 className='custom-font pb-5 text-center'>Completed: </h2> */}
         {data.ProjectsData.map((project) => {
           return(
-            <div className="col-12 d-flex justify-content-center" key={project.id}>
+            <div className="projects" key={project.id}>
                 <Project id={project.id}
                   image={project.img}
                   name={project.name}

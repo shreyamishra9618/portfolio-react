@@ -1,7 +1,8 @@
 import React from 'react'
 import { useRef } from 'react'
 import { Player } from '@lottiefiles/react-lottie-player';
-import emailjs from '@emailjs/browser'
+import emailjs from '@emailjs/browser';
+import '../styles/Contact.css'
 
 const Contact = () => {
 
@@ -24,7 +25,7 @@ const Contact = () => {
       }
 
   return (
-    <div className="container-fluid p-5">
+    <div className="contactContainer">
       <div className="d-sm-flex align-items-center justify-content-center">
         <div>
             <form ref={form} onSubmit={sendEmail}>
@@ -64,6 +65,15 @@ const Contact = () => {
                 </ul>
             </form>
         </div>  
+        <section className="contactMe">
+        <h3>Reach Me At:</h3>
+        <ul class="rightbox">
+            <li>425-534-4642</li>
+            <li><a href="mailto:shreyamishra9618@gmail.com">shreyamishra9618@gmail.com</a></li>
+            <li><a href="https://github.com/shreyamishra9618" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/shreyam9618?trk=profile-badge" target="_blank">LinkedIn</a></li>
+        </ul>
+      </section>
         <div>
             <Player
               src='https://assets10.lottiefiles.com/packages/lf20_u25cckyh.json'

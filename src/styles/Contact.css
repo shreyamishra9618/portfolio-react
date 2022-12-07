@@ -1,0 +1,12 @@
+.contactContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactMe{
+    color: rgb(6, 6, 96);
+    align-items: center;
+    background-color: rgb(251, 240, 227);
+     border: 20px; 
+    border-color: black;
+}
