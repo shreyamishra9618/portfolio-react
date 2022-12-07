@@ -5,7 +5,7 @@ GIT HUB URL:https://github.com/shreyamishra9618/shreyaportfolio
 
 
 ## Deployed Application Link 
-The website is deployed [here](https://mattdack.github.io/hiking-app).
+The website is deployed [here](https://shreyamishrareactbasedapp.netlify.app/).
 
 
 ![Portfolio front page](./public/portfoliopage.png "Shreya Mishra")
