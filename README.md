@@ -1,7 +1,7 @@
 # Shreya_Mishra_React_Portfolio
 
 This repository provides ditails of my work and education.<br />
-GIT HUB URL:https://github.com/shreyamishra9618/shreyaportfolio
+GIT HUB URL:https://github.com/shreyamishra9618/portfolio-react
 
 
 ## Deployed Application Link 
